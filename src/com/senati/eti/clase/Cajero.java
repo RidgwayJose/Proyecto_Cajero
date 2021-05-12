@@ -13,7 +13,6 @@ public class Cajero {
 	private float deposito;
 	private ArrayList<Cajero>Cuentas = new ArrayList<Cajero>();
 	
-
 	
 	public float getRetiro() {
 		return retiro;

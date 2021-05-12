@@ -36,7 +36,6 @@ public class Suministros {
 		SumLuz = sumLuz;
 	}
 	
-	
 	public Suministros() {
 	}
 	

@@ -42,10 +42,15 @@ public class Cajero_auto {
 		
 		Suministros sm = new Suministros();
 		ArrayList<Suministros>Sum = new ArrayList<Suministros>();
+		//Agua, Luz, Suministro Agua, Suministro Luz
 		Suministros Sum1 = new Suministros(35.50f, 45.40f, 1234567, 2345678);
 		Suministros Sum2 = new Suministros(132f, 98.60f, 7654321 , 8765432);
+		Suministros Sum3 = new Suministros(70f, 150.60f, 2492656 , 9562626);
+		Suministros Sum4 = new Suministros(50.20f, 80f, 8712545 , 6392595);
 		Sum.add(Sum1);
 		Sum.add(Sum2);
+		Sum.add(Sum3);
+		Sum.add(Sum4);
 
 		// Lectura de datos
 		String n_tarjeta = "" ;
